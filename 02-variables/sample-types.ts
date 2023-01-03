@@ -9,4 +9,4 @@ console.log("Hi " + firstName + " " + lastName);
 
 //Use template Strings
 
-console.log()
+console.log(`Hi my name is ${firstName} ${lastName}`);

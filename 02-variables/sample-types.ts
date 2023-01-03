@@ -6,3 +6,7 @@ let lastName: String = "Moswane";
 console.log(found);
 console.log("The grade is " + grade);
 console.log("Hi " + firstName + " " + lastName);
+
+//Use template Strings
+
+console.log()

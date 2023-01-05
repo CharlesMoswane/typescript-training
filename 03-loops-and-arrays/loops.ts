@@ -4,4 +4,6 @@ for(let i = 0; i < 5; i++){
 
 let myArray: number[] = [0,1,2,3,4,5];
 
-for(let num of myArray){}
+for(let num of myArray){
+    console.log(num);
+}

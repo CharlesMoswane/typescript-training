@@ -1,7 +1,7 @@
 import { Shape } from "./shape";
 
 export class Circle extends Shape{
-    private _radius: number;
+    ;
     public get radius(): number {
         return this._radius;
     }
@@ -9,5 +9,7 @@ export class Circle extends Shape{
         this._radius = value;
     }
 
-    constructor(theX: number, theY: number, )
+    constructor(theX: number, theY: number, private _radius: number){
+        super(theX,theY);
+    }
 }

@@ -4,4 +4,7 @@ export class Rectangle extends Shape{
     private _breadth: number;
     private _width: number;
 
+    constructor(){
+        super();
+    }
 }

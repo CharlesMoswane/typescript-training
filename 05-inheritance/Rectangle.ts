@@ -4,8 +4,8 @@ export class Rectangle extends Shape{
     private _breadth: number;
     private _width: number;
 
-    constructor(){
-        super();
+    constructor(theX: number, theY: number){
+        super(theX,theY);
     }
 
     public get breadth(): number {

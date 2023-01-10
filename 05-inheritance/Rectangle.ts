@@ -14,4 +14,11 @@ export class Rectangle extends Shape{
     public set breadth(value: number) {
         this._breadth = value;
     }
+
+    public get width(): number {
+        return this._width;
+    }
+    public set width(value: number) {
+        this._width = value;
+    }
 }

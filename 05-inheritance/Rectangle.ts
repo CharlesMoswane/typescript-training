@@ -7,4 +7,11 @@ export class Rectangle extends Shape{
     constructor(){
         super();
     }
+
+    public get breadth(): number {
+        return this._breadth;
+    }
+    public set breadth(value: number) {
+        this._breadth = value;
+    }
 }
